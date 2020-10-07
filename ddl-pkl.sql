@@ -109,10 +109,13 @@ CONSTRAINT second_innings_id FOREIGN KEY (id)
     REFERENCES innings(id));    
                       
 -- 13. **Drop table city**
-                       
+drop table city;                       
 
 -- 14. **Drop table innings**
-
+drop table innings;
+                       
 -- 15. **Drop table skill**
+drop table skill;                       
 
 -- 16. **Drop table extra_type**
+drop table extra_type;
